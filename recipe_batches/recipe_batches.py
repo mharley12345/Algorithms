@@ -4,7 +4,7 @@ import math
 
 
 def recipe_batches(recipe, ingredients):
-    temp=[]#Store number of batches of each available ingredients
+    temp=[]#Store number of batches of each available ingredient
     for item,amount_needed in recipe.items():#Go through recipe keys and values
         if item not in ingredients:#Check for keys present in ingredients 
           return 0
